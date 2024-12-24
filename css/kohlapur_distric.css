@@ -32,6 +32,7 @@ nav ul li a {
     text-align: center;
     background-color: #c6d9eb;
     color: #002733;
+    align-items: center;
 
     }
 
@@ -75,8 +76,16 @@ nav ul li a {
      width: 310px;
      margin: 10px;
   }
-  #img:hover{
-    box-sizing: border-box;
+
+
+  .btn{
+    background-color: #163536;
+    color: white;
+    position: relative;
+    border-radius: 5PX;
+    padding: 5PX;
+    font-size: 15px;
+    margin: auto;
 
   }
 
