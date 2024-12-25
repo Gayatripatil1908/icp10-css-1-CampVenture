@@ -10,12 +10,18 @@
             margin: 0;
             background-color: lightblue;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background:url(./../images/background\ 2.jpeg);
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: cover;
+
         }
         h3{
             margin: 0;
             font-size: 30px;
             margin-bottom: 30px;
             text-align: center;
+            color: white;
         }
         .container{
             background-color: white;
@@ -23,6 +29,12 @@
             margin: auto;
             border-radius: 25px;
             padding: 40px;
+            margin-top: 15px;
+            background: transparent;
+            background: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.1));
+            backdrop-filter: blur;
+            border: 1px solid #ccc;
+            box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
         }
         .inputs{
             font-size: 15px;
@@ -35,7 +47,12 @@
             margin-bottom: 15px;
             position: relative;
             left: 90px;
+        
             
+        }
+        .inputs:hover{
+            border: 2px solid rgb(54, 49, 49);
+            transition: 0.5s;
         }
         .sub-section{
             display: flex;
@@ -71,10 +88,19 @@
             font-weight: 300;
 
         }
+        .btn:hover{
+            color: white;
+            background-color: black;
+        }
         .sub{
             position: relative;
             left: 30px;
             padding: 0px 10px;
+        }
+        .img{
+            height: 30px;
+            width: 100%;
+            margin-bottom:10px ;
         }
     </style>
 </head>
@@ -101,7 +127,7 @@
     <div class="container">
         <h3>PAYMENT </h3>
         <form>
-            <input class="inputs" type="text" name="text" placeholder="text"><br>
+            <img src="./../images/essentials/credit.jpeg"class="img">
             <input class="inputs" type="text" name="card_holder_name" placeholder="Card Holder Name"><br>
             <input class="inputs" type="text" name="Credit_card_number" placeholder="Credit Card Number"><br>
             <input class="inputs" type="number" name="exp_month" placeholder="Exp. Month"><br>
@@ -117,10 +143,10 @@
         </form>
         <div class="div-sub">
             <div class="sub" >
-                <input class="btn" type="submit" value="Cancel">
+                <a href="./../pages/camping_essentials.html"><button class="btn">Cancel</button></a> 
             </div>
             <div class="sub" >
-                <input class="btn" type="Submit" value="Submit">
+                <a href="../pages/submit.html" target="_blank"><button class="btn">Submit</button></a>
             </div>
         </div>
     </div>
