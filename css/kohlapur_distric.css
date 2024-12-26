@@ -70,7 +70,7 @@
     font-style: normal;
     font-size: 40px;
     text-align: center;
-    background-color: #c6d9eb;
+    background-color: #94b8b8;
     color: #002733;
     align-items: center;
 
@@ -129,11 +129,24 @@
 
   }
 
-  table{
-    align-items: center;
-    background-color: aliceblue;
-    color: #04222b;
-    margin: auto;
-    padding: 50px;
+  
+
+  .heading1{
+    background-color: #c2d6d6;
+    text-align: center;
   }
   
+  .btn1{
+    background-color: #c2d6d6;
+    color: #476b6b;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+    margin: 0px 0px 20px 550px;
+
+
+
+  }
